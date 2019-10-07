@@ -110,7 +110,6 @@
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Home" t="Include">
             <e p="About.cshtml" t="Include" />
-            <e p="Contact.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
             <e p="Publications.cshtml" t="Include" />
             <e p="Research.cshtml" t="Include" />
