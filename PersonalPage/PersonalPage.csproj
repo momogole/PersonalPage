@@ -165,6 +165,8 @@
     <Content Include="fonts\open-iconic\open-iconic.ttf" />
     <Content Include="fonts\open-iconic\open-iconic.woff" />
     <Content Include="Global.asax" />
+    <Content Include="images\author.jpg" />
+    <Content Include="images\bg_1.jpg" />
     <Content Include="Scripts\aos.js" />
     <Content Include="Scripts\bootstrap-datepicker.js" />
     <Content Include="Scripts\bootstrap.min.js" />
