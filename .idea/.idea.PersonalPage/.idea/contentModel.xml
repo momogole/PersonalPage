@@ -31,49 +31,6 @@
           <e p="HomeController.cs" t="Include" />
         </e>
         <e p="favicon.ico" t="Include" />
-        <e p="fonts" t="Include">
-          <e p="flaticon" t="Include">
-            <e p="backup.txt" t="Include" />
-            <e p="font" t="Include">
-              <e p="_flaticon.scss" t="Include" />
-              <e p="flaticon.css" t="Include" />
-              <e p="Flaticon.eot" t="Include" />
-              <e p="flaticon.html" t="Include" />
-              <e p="Flaticon.svg" t="Include" />
-              <e p="Flaticon.ttf" t="Include" />
-              <e p="Flaticon.woff" t="Include" />
-            </e>
-            <e p="license" t="Include">
-              <e p="license.pdf" t="Include" />
-            </e>
-          </e>
-          <e p="icomoon" t="Include">
-            <e p="icomoon.eot" t="Include" />
-            <e p="icomoon.svg" t="Include" />
-            <e p="icomoon.ttf" t="Include" />
-            <e p="icomoon.woff" t="Include" />
-          </e>
-          <e p="ionicons" t="Include">
-            <e p="css" t="Include">
-              <e p="_ionicons.scss" t="Include" />
-              <e p="ionicons.min.css" t="Include" />
-            </e>
-            <e p="fonts" t="Include">
-              <e p="ionicons.eot" t="Include" />
-              <e p="ionicons.svg" t="Include" />
-              <e p="ionicons.ttf" t="Include" />
-              <e p="ionicons.woff" t="Include" />
-              <e p="ionicons.woff2" t="Include" />
-            </e>
-          </e>
-          <e p="open-iconic" t="Include">
-            <e p="open-iconic.eot" t="Include" />
-            <e p="open-iconic.otf" t="Include" />
-            <e p="open-iconic.svg" t="Include" />
-            <e p="open-iconic.ttf" t="Include" />
-            <e p="open-iconic.woff" t="Include" />
-          </e>
-        </e>
         <e p="Global.asax" t="Include" />
         <e p="Global.asax.cs" t="Include" />
         <e p="Models" t="Include" />
