@@ -12,15 +12,23 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Content" t="Include">
-          <e p="ajax-loader.gif" t="Include" />
           <e p="animate.css" t="Include" />
           <e p="aos.css" t="Include" />
-          <e p="bootstrap-datepicker.css" t="Include" />
+          <e p="bootstrap-grid.css" t="Include" />
+          <e p="bootstrap-grid.css.map" t="Include" />
+          <e p="bootstrap-grid.min.css" t="Include" />
+          <e p="bootstrap-grid.min.css.map" t="Include" />
+          <e p="bootstrap-reboot.css" t="Include" />
+          <e p="bootstrap-reboot.css.map" t="Include" />
+          <e p="bootstrap-reboot.min.css" t="Include" />
+          <e p="bootstrap-reboot.min.css.map" t="Include" />
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.css.map" t="Include" />
           <e p="bootstrap.min.css" t="Include" />
+          <e p="bootstrap.min.css.map" t="Include" />
           <e p="flaticon.css" t="Include" />
           <e p="icomoon.css" t="Include" />
           <e p="ionicons.min.css" t="Include" />
-          <e p="jquery.timepicker.css" t="Include" />
           <e p="magnific-popup.css" t="Include" />
           <e p="open-iconic-bootstrap.min.css" t="Include" />
           <e p="owl.carousel.min.css" t="Include" />
@@ -89,22 +97,61 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="aos.js" t="Include" />
-          <e p="bootstrap-datepicker.js" t="Include" />
+          <e p="bootstrap.bundle.js" t="Include" />
+          <e p="bootstrap.bundle.js.map" t="Include" />
+          <e p="bootstrap.bundle.min.js" t="Include" />
+          <e p="bootstrap.bundle.min.js.map" t="Include" />
+          <e p="bootstrap.js" t="Include" />
+          <e p="bootstrap.js.map" t="Include" />
           <e p="bootstrap.min.js" t="Include" />
-          <e p="google-map.js" t="Include" />
-          <e p="jquery-3.2.1.min.js" t="Include" />
+          <e p="bootstrap.min.js.map" t="Include" />
+          <e p="esm" t="Include">
+            <e p="popper-utils.js" t="Include" />
+            <e p="popper-utils.js.map" t="Include" />
+            <e p="popper-utils.min.js" t="Include" />
+            <e p="popper-utils.min.js.map" t="Include" />
+            <e p="popper.js" t="Include" />
+            <e p="popper.js.map" t="Include" />
+            <e p="popper.min.js" t="Include" />
+            <e p="popper.min.js.map" t="Include" />
+          </e>
+          <e p="index.d.ts" t="Include" />
+          <e p="jquery-3.4.1-vsdoc.js" t="Include" />
+          <e p="jquery-3.4.1.js" t="Include" />
+          <e p="jquery-3.4.1.min.js" t="Include" />
+          <e p="jquery-3.4.1.min.map" t="Include" />
+          <e p="jquery-3.4.1.slim.js" t="Include" />
+          <e p="jquery-3.4.1.slim.min.js" t="Include" />
+          <e p="jquery-3.4.1.slim.min.map" t="Include" />
           <e p="jquery-migrate-3.0.1.min.js" t="Include" />
           <e p="jquery.animateNumber.min.js" t="Include" />
           <e p="jquery.easing.1.3.js" t="Include" />
           <e p="jquery.magnific-popup.min.js" t="Include" />
-          <e p="jquery.min.js" t="Include" />
           <e p="jquery.stellar.min.js" t="Include" />
           <e p="jquery.waypoints.min.js" t="Include" />
           <e p="main.js" t="Include" />
           <e p="owl.carousel.min.js" t="Include" />
+          <e p="popper-utils.js" t="Include" />
+          <e p="popper-utils.js.map" t="Include" />
+          <e p="popper-utils.min.js" t="Include" />
+          <e p="popper-utils.min.js.map" t="Include" />
+          <e p="popper.js" t="Include" />
+          <e p="popper.js.map" t="Include" />
           <e p="popper.min.js" t="Include" />
+          <e p="popper.min.js.map" t="Include" />
           <e p="range.js" t="Include" />
+          <e p="README.md" t="Include" />
           <e p="scrollax.min.js" t="Include" />
+          <e p="umd" t="Include">
+            <e p="popper-utils.js" t="Include" />
+            <e p="popper-utils.js.map" t="Include" />
+            <e p="popper-utils.min.js" t="Include" />
+            <e p="popper-utils.min.js.map" t="Include" />
+            <e p="popper.js" t="Include" />
+            <e p="popper.js.map" t="Include" />
+            <e p="popper.min.js" t="Include" />
+            <e p="popper.min.js.map" t="Include" />
+          </e>
         </e>
         <e p="Views" t="Include">
           <e p="_ViewStart.cshtml" t="Include" />
