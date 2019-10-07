@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PersonalPage" t="IncludeRecursive">
+        <e p="App_Data" t="Include" />
+        <e p="App_Start" t="Include">
+          <e p="BundleConfig.cs" t="Include" />
+          <e p="FilterConfig.cs" t="Include" />
+          <e p="RouteConfig.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Content" t="Include">
+          <e p="ajax-loader.gif" t="Include" />
+          <e p="animate.css" t="Include" />
+          <e p="aos.css" t="Include" />
+          <e p="bootstrap-datepicker.css" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="flaticon.css" t="Include" />
+          <e p="icomoon.css" t="Include" />
+          <e p="ionicons.min.css" t="Include" />
+          <e p="jquery.timepicker.css" t="Include" />
+          <e p="magnific-popup.css" t="Include" />
+          <e p="open-iconic-bootstrap.min.css" t="Include" />
+          <e p="owl.carousel.min.css" t="Include" />
+          <e p="owl.theme.default.min.css" t="Include" />
+          <e p="style.css" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="flaticon" t="Include">
+            <e p="backup.txt" t="Include" />
+            <e p="font" t="Include">
+              <e p="_flaticon.scss" t="Include" />
+              <e p="flaticon.css" t="Include" />
+              <e p="Flaticon.eot" t="Include" />
+              <e p="flaticon.html" t="Include" />
+              <e p="Flaticon.svg" t="Include" />
+              <e p="Flaticon.ttf" t="Include" />
+              <e p="Flaticon.woff" t="Include" />
+            </e>
+            <e p="license" t="Include">
+              <e p="license.pdf" t="Include" />
+            </e>
+          </e>
+          <e p="icomoon" t="Include">
+            <e p="icomoon.eot" t="Include" />
+            <e p="icomoon.svg" t="Include" />
+            <e p="icomoon.ttf" t="Include" />
+            <e p="icomoon.woff" t="Include" />
+          </e>
+          <e p="ionicons" t="Include">
+            <e p="css" t="Include">
+              <e p="_ionicons.scss" t="Include" />
+              <e p="ionicons.min.css" t="Include" />
+            </e>
+            <e p="fonts" t="Include">
+              <e p="ionicons.eot" t="Include" />
+              <e p="ionicons.svg" t="Include" />
+              <e p="ionicons.ttf" t="Include" />
+              <e p="ionicons.woff" t="Include" />
+              <e p="ionicons.woff2" t="Include" />
+            </e>
+          </e>
+          <e p="open-iconic" t="Include">
+            <e p="open-iconic.eot" t="Include" />
+            <e p="open-iconic.otf" t="Include" />
+            <e p="open-iconic.svg" t="Include" />
+            <e p="open-iconic.ttf" t="Include" />
+            <e p="open-iconic.woff" t="Include" />
+          </e>
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Models" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PersonalPage.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="aos.js" t="Include" />
+          <e p="bootstrap-datepicker.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="google-map.js" t="Include" />
+          <e p="jquery-3.2.1.min.js" t="Include" />
+          <e p="jquery-migrate-3.0.1.min.js" t="Include" />
+          <e p="jquery.animateNumber.min.js" t="Include" />
+          <e p="jquery.easing.1.3.js" t="Include" />
+          <e p="jquery.magnific-popup.min.js" t="Include" />
+          <e p="jquery.min.js" t="Include" />
+          <e p="jquery.stellar.min.js" t="Include" />
+          <e p="jquery.waypoints.min.js" t="Include" />
+          <e p="main.js" t="Include" />
+          <e p="owl.carousel.min.js" t="Include" />
+          <e p="popper.min.js" t="Include" />
+          <e p="range.js" t="Include" />
+          <e p="scrollax.min.js" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="About.cshtml" t="Include" />
+            <e p="Contact.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Publications.cshtml" t="Include" />
+            <e p="Research.cshtml" t="Include" />
+            <e p="Teaching.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="PersonalPage.sln" t="IncludeFlat" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_PersonalPage.648259302.00" t="ExcludeRecursive" />
+  </component>
+</project>
