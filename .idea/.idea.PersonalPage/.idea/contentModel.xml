@@ -100,7 +100,6 @@
           <e p="aos.js" t="Include" />
           <e p="bootstrap-datepicker.js" t="Include" />
           <e p="bootstrap.min.js" t="Include" />
-          <e p="google-map.js" t="Include" />
           <e p="jquery-3.2.1.min.js" t="Include" />
           <e p="jquery-migrate-3.0.1.min.js" t="Include" />
           <e p="jquery.animateNumber.min.js" t="Include" />
