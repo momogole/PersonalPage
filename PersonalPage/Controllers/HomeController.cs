@@ -13,11 +13,6 @@ namespace PersonalPage.Controllers
             return View();
         }
 
-        public ActionResult Research()
-        {
-            return View();
-        }
-
         public ActionResult Publications()
         {
             return View();
@@ -30,7 +25,6 @@ namespace PersonalPage.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
             return View();
         }
     }

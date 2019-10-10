@@ -1,0 +1,109 @@
+﻿@{
+    ViewBag.Title = "Regional Colocation";
+}
+
+<section class="ftco-section">
+    <div class="container">
+        <h2 class="h2 font-weight-bold">Regional Co-location Pattern Detection</h2>
+        <p>
+            Given instances of different spatial features (e.g., mall, hospital) and a spatial relationship (e.g.,
+            geographic proximity), a <strong>co-location pattern</strong> is defined as a set of features, the instances
+            of which tend to be related to each other. For example, shopping malls and movie theaters are often found
+            nearby each other. Another real-world example is symbiotic species, such as the Nile crocodiles and
+            Egyptian plovers.
+        </p>
+
+        <div class="col-md-5 float-right">
+            <figure class="figure">
+                <img src="/images/Research/RegionalColocation2018/RegionalColocationMotivation.png"
+                     class="figure-img img-fluid rounded"
+                     alt="Examples of regional co-location patterns.">
+                <figcaption class="figure-caption text-center">Fig. 1. Examples of regional co-location patterns.</figcaption>
+            </figure>
+        </div>
+
+        <p>
+            However, the uneven distribution of spatial features in the space, i.e., spatial heterogeneity, is ubiquitous,
+            so sometimes co-location patterns only exist in certain areas. For example, the co-location pattern composed
+            of crocodiles and plovers only exists in Nile river basin. The co-location patterns composed of fast-food
+            restaurants also vary in different area. In the U.S., McDondald's tends to appear together with Burger King,
+            and Subway, while in China, it is KFC that is co-located with McDondald's.
+        </p>
+
+        <p>
+            Therefore, a <strong>regional co-location pattern</strong> is defined as a pair that is composed of a
+            set of features and a region, such that in the region the instances of the features tend to be related with
+            each other.
+        </p>
+
+        <h2 class="h4 font-weight-bold">Basic Concepts</h2>
+        <p>
+            Each spatial <strong>object</strong>, composed of a boolean <strong>feature</strong> (e.g, mall, hospital)
+            and a spatial location, can be related to others through a spatial <strong>relation</strong> (e.g., geographic
+            proximity). As shown in Fig. 2, there are 3 features (\(f_A, f_B, f_C\)), and a relation between their
+            instances. A set of objects can form a <strong>clique</strong> given a relation if every pair of them are
+            related. In Fig. 2, the objects circled in blue form a clique.
+        </p>
+        <p>
+            An <strong>instance</strong> of a set of features is a clique formed by the instances of the features
+            in the set. Every feature has only one instance in this clique.
+        </p>
+
+        <div class="col-md-5 float-left">
+            <figure class="figure">
+                <img src="/images/Research/RegionalColocation2018/RegionalColocationConcepts.png"
+                     class="figure-img img-fluid rounded"
+                     alt="Concepts of regional co-location patterns.">
+                <figcaption class="figure-caption text-center">Fig. 2. Concepts of regional co-location patterns.</figcaption>
+            </figure>
+        </div>
+
+        <p>
+            The degree to which instances of a set of features tend to be co-located is measured by
+            <strong>Participation Ratio</strong> and <strong>Participation Index</strong>. The participation ratio of a
+            feature \(f_i\) in a set of features \(C\), \(pr(C,f_i)\), is the ratio of the instances of \(f_i\)
+            participating in the instances of the set. For example, in Fig. 2 \(pr(\{ f_A, f_B \},f_A) = 4/6 \), and
+            \(pr(\{ f_A, f_B \},f_B) = 3/15 \). The participation index of a set of features \(C\), \(pi(C)\), is the
+            minimal participation ratio of the features in the set. For example, in Fig. 2 \(pi(\{ f_A, f_B \}) = 3/15\).
+        </p>
+
+        <p>
+            The <strong>study area</strong> is defined as the minimum orthogonal bounding rectangle (MOBR) of the input
+            spatial objects. A <strong>region</strong> is a subset of the study area. The instances, participation ratio,
+            and participation index of a pair composed of a set of features and a region, \([ C,r ]\), are the
+            corresponding values of the set in the region. For example, in Fig. 2, \(r\) highlighted by a red rectangle
+            is a region. \(pr([ \{ f_A, f_B \}, r ],f_A) = 1 \), \(pr([\{ f_A, f_B \},r],f_B) = 2/3 \), and
+            \(pi([\{ f_A, f_B \},r]) = 2/3\). A region is a <strong>prevalence region</strong> of a set of features if
+            the participation index of the set in the region is greater or equal to an input threshold.
+        </p>
+        <p>
+            Therefore, the regional co-location pattern detection problem aims to find the pairs composed of a set of
+            features and its prevalence regions. In order to avoid ill-posed results in which there is only one clique
+            of the set of features in the region, we set a constraint on the minimum number of cliques of the set in
+            each region.
+        </p>
+        <h2 class="h4 font-weight-bold">Method</h2>
+        <p>
+            Since the space is continuous, there are infinite number of regions in a study area. In this study, we define
+            the regions that are considered as the minimum orthogonal bounding rectangles (MOBRs) of the subset of the
+            instances of sets of features. For example, in Fig. 2, to find a potential location co-location pattern
+            composed of \(\{f_A,f_B\}\) and a region, the candidate regions to be enumerated are the MOBRs of the subsets
+            of all the instances of \(\{f_A,f_B\}\). We can prove that MOBRs is a precise approximation of any arbitrary
+            rectangle with sides parallel to the coordinate system that are prevalence regions, since in each of these
+            rectangles, there must be an MOBR that has the same number of the instances of the set, and also has a
+            participation index no less than the rectangle.
+        </p>
+        <p>
+            More details can be found in:
+            <ul>
+                <li>
+                    <strong>Yan Li</strong>, and Shashi Shekhar. 2018.
+                    "Local Co-location Pattern Detection: A Summary of Results".
+                    In <i>10th International Conference on Geographic Information Science (GIScience 2018)</i>, Melbourne, Australia.
+                    Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik.
+                    (Acceptance rate: 30%, <a href="http://drops.dagstuhl.de/opus/volltexte/2018/9338/">link</a>)
+                </li>
+            </ul>
+        </p>
+    </div>
+</section>
