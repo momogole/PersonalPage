@@ -169,6 +169,7 @@
     <Content Include="Global.asax" />
     <Content Include="images\author.jpg" />
     <Content Include="images\bg_1.jpg" />
+    <Content Include="images\Research\RegionalColocation2018\RegionalColocationConcepts.png" />
     <Content Include="images\Research\RegionalColocation2018\RegionalColocationMotivation.png" />
     <Content Include="Scripts\aos.js" />
     <Content Include="Scripts\bootstrap.min.js" />
