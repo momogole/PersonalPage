@@ -89,6 +89,7 @@
           <e p="bg_1.jpg" t="Include" />
           <e p="Research" t="Include">
             <e p="RegionalColocation2018" t="Include">
+              <e p="RegionalColocationConcepts.png" t="Include" />
               <e p="RegionalColocationMotivation.png" t="Include" />
             </e>
           </e>
